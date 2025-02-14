@@ -1,0 +1,45 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 0.5px;
+    background-color: black;
+    color: white;
+    border-bottom: 0.5px solid white;
+    position: relative;
+}
+
+/* Logo */
+.navbar-logo-img {
+    height: 300px;
+}
+
+/* Navigation Links */
+.navbar-links {
+    display: flex;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding-bottom: 0.50px;
+}
+
+
+.navbar-link.active::after {
+    content: "•  •  •"; /* Each dot appears separately */
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* Hover Effect */
+.navbar-link:hover {
+    opacity: 0.8;
+}

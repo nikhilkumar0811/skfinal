@@ -1,11 +1,12 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Services from "./pages/Services";
-import Gallery from "./pages/Gallery";
-import Reviews from "./pages/Reviews";
-import Contact from "./pages/Contact";
+import Navbar from "./components/Navbar.jsx";
+import Home from "./pages/Home/Home.jsx";
+
+import Services from "./pages/Services/Services.jsx";
+import Gallery from "./pages/Gallery/Gallery.jsx";
+import Reviews from "./pages/Reviews/Reviews.jsx";
+import Contact from "./pages/Contact/Contact.jsx";
 
 function App() {
   return (

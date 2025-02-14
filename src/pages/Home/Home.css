@@ -1,0 +1,138 @@
+/* Home Container
+.home-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 100vh;
+    color: white;
+  }
+   */
+  /* Left Section - Text Content */
+  /* .home-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+  } */
+  
+  /* Title */
+  /* .home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+   */
+  /* Description */
+  /* .home-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+   */
+  /* Button */
+  /* .home-button {
+    background-color: white;
+    color: black;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+  } */
+  
+  /* .home-button:hover {
+    background-color: #f0f0f0;
+  }
+   */
+  /* Right Section - Image */
+  /* .home-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+  }
+   */
+  /* Image */
+  /* .home-img {
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+  }
+   */
+
+
+
+
+   /* Global Styles */
+body {
+    font-family: "PingFang SC", sans-serif;
+    font-weight: 500;
+}
+
+/* Home Container */
+.home-container {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+/* Left Section - Text Content */
+.home-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+/* Title */
+.home-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Description */
+.home-description {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+/* Button */
+.home-button {
+    background-color:#FFFFFF;
+    color: black;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.home-button:hover {
+    background-color: #FFFFFF;
+}
+
+/* Right Section - Image */
+.home-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 110px;
+    
+}
+
+/* Image */
+.home-img {
+    max-width: 550px;
+    height: auto;
+    border-radius: 10px;
+}
+
+   

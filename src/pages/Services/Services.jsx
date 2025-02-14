@@ -239,16 +239,195 @@
 
 // // export default Services;
 
+// import React from "react";
+// import { Card } from "react-bootstrap";
+// import BiometricSystems from "../../assets/vectors/Biometric-Systems.jpg";
+// import cardlevelRepairing from "../../assets/vectors/Card-Level-Repairing.jpeg";
+// import computerNetworking from "../../assets/vectors/Computer-Networking.png";
+// import laptoprepair from "../../assets/vectors/laptop-repair1.jpg";
+// import mobilephonerepair from "../../assets/vectors/mobile-phone-repair.jpg";
+// import NetworkSurveillancesetup from "../../assets/vectors/Network-Surveillance-Setup.jpg";
+// import securitycamera from "../../assets/vectors/security-camera.jpg";
+// import preventivemaintenance from "../../assets/vectors/preventive-maintenance.png";
+
+// const services = [
+//   {
+//     img: laptoprepair,
+//     id: 1,
+//     title: "Laptop Repairs",
+//     description:
+//       "We repair all major brands including DELL, HP, SONY, Acer, COMPAC, Lenovo, ASUS, etc.",
+//   },
+//   {
+//     img: NetworkSurveillancesetup,
+//     id: 2,
+//     title: "Network & Surveillance Setup",
+//     description:
+//       "Expert setup for D-Link, CISCO, Systimax Solutions, AMP, and more.",
+//   },
+//   {
+//     img: securitycamera,
+//     id: 3,
+//     title: "CCTV Installation & Maintenance",
+//     description:
+//       "Installation & maintenance for HIKVISION, CP PLUS, LG, Samsung, etc.",
+//   },
+//   {
+//     img: mobilephonerepair,
+//     id: 4,
+//     title: "Mobile Repairing",
+//     description: "Repairs for Oppo, Vivo, Sony, and other leading brands.",
+//   },
+//   {
+//     img: computerNetworking,
+//     id: 5,
+//     title: "Computer Networking & Data Backup",
+//     description:
+//       "Secure and efficient networking solutions with reliable data backup services.",
+//   },
+//   {
+//     img: BiometricSystems,
+//     id: 6,
+//     title: "Biometric Systems",
+//     description:
+//       "Installation and maintenance of modern biometric security solutions.",
+//   },
+//   {
+//     img: cardlevelRepairing,
+//     id: 7,
+//     title: "Card-Level Repairing",
+//     description:
+//       "Advanced component-level repairs for motherboards and circuits.",
+//   },
+//   {
+//     img: preventivemaintenance,
+//     id: 8,
+//     title: "Annual Preventive Maintenance",
+//     description:
+//       "Scheduled maintenance to keep your IT equipment running smoothly.",
+//   },
+// ];
+
+// const styles = {
+//   page: {
+//     textAlign: "center",
+//     color: "#fff",
+//     backgroundColor: "#050a23",
+//     minHeight: "75vh",
+//     display: "flex",
+//     flexDirection: "column",
+//     alignItems: "center",
+//     justifyContent: "center",
+//     padding: "20px",
+//   },
+//   header: {
+//     fontWeight: "600",
+//     marginBottom: "20px",
+//   },
+//   description: {
+//     maxWidth: "75%",
+//     marginBottom: "30px",
+//     fontSize: "1.1rem",
+//   },
+//   cardContainer: {
+//     display: "grid",
+//     gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", // Increased min size for better visibility
+//     gap: "20px",
+//     padding: "50px",
+//     maxWidth: "1200px",
+//     margin: "0 auto",
+//   },
+//   card: {
+//     position: "relative",
+//     cursor: "pointer",
+//     overflow: "hidden",
+//     borderRadius: "10px",
+//     boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.4)",
+//     transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
+//   },
+//   cardHover: {
+//     transform: "scale(1.05)", // Slightly enlarge on hover
+//     boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.5)",
+//   },
+//   cardImage: {
+//     width: "100%",
+//     height: "280px", // Increased height for better display
+//     objectFit: "cover",
+//   },
+//   overlay: {
+//     position: "absolute",
+//     top: "0",
+//     left: "0",
+//     width: "100%",
+//     height: "100%",
+//     backgroundColor: "rgba(5, 10, 35, 0.85)", // Increased visibility of background
+//     display: "flex",
+//     flexDirection: "column",
+//     alignItems: "center",
+//     justifyContent: "center",
+//     textAlign: "center",
+//     padding: "20px",
+//     color: "#fff",
+//     transition: "0.3s ease-in-out",
+//     opacity: "0.9",
+//   },
+//   title: {
+//     fontSize: "1.8rem",
+//     fontWeight: "bold",
+//     color: "#ff4444",
+//   },
+//   text: {
+//     fontSize: "1rem",
+//     marginTop: "10px",
+//   },
+// };
+
+// function Services() {
+//   return (
+//     <div>
+//       <header style={styles.page}>
+//         <h1 style={styles.header}>Our Services</h1>
+//         <p style={styles.description}>
+//           We provide expert IT solutions, repairs, and maintenance services to
+//           keep your systems running at peak performance.
+//         </p>
+//       </header>
+
+//       <div style={styles.cardContainer}>
+//         {services.map((service) => (
+//           <Card
+//             key={service.id}
+//             style={styles.card}
+//             onMouseEnter={(e) =>
+//               (e.currentTarget.style.transform = styles.cardHover.transform)
+//             }
+//             onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
+//           >
+//             <Card.Img src={service.img} style={styles.cardImage} />
+//             <Card.ImgOverlay style={styles.overlay}>
+//               <Card.Title style={styles.title}>{service.title}</Card.Title>
+//               <Card.Text style={styles.text}>{service.description}</Card.Text>
+//             </Card.ImgOverlay>
+//           </Card>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default Services;
+
 import React from "react";
 import { Card } from "react-bootstrap";
-import BiometricSystems from "../assets/vectors/Biometric-Systems.jpg";
-import cardlevelRepairing from "../assets/vectors/Card-Level-Repairing.jpeg";
-import computerNetworking from "../assets/vectors/Computer-Networking.png";
-import laptoprepair from "../assets/vectors/laptop-repair1.jpg";
-import mobilephonerepair from "../assets/vectors/mobile-phone-repair.jpg";
-import NetworkSurveillancesetup from "../assets/vectors/Network-Surveillance-Setup.jpg";
-import securitycamera from "../assets/vectors/security-camera.jpg";
-import preventivemaintenance from "../assets/vectors/preventive-maintenance.png";
+import BiometricSystems from "../../assets/vectors/Biometric-Systems.jpg";
+import cardlevelRepairing from "../../assets/vectors/Card-Level-Repairing.jpeg";
+import computerNetworking from "../../assets/vectors/Computer-Networking.png";
+import laptoprepair from "../../assets/vectors/laptop-repair1.jpg";
+import mobilephonerepair from "../../assets/vectors/mobile-phone-repair.jpg";
+import NetworkSurveillancesetup from "../../assets/vectors/Network-Surveillance-Setup.jpg";
+import securitycamera from "../../assets/vectors/security-camera.jpg";
+import preventivemaintenance from "../../assets/vectors/preventive-maintenance.png";
+import "./Services.css"; // Import the CSS file
 
 const services = [
   {
@@ -308,105 +487,28 @@ const services = [
   },
 ];
 
-const styles = {
-  page: {
-    textAlign: "center",
-    color: "#fff",
-    backgroundColor: "#050a23",
-    minHeight: "75vh",
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    padding: "20px",
-  },
-  header: {
-    fontWeight: "600",
-    marginBottom: "20px",
-  },
-  description: {
-    maxWidth: "75%",
-    marginBottom: "30px",
-    fontSize: "1.1rem",
-  },
-  cardContainer: {
-    display: "grid",
-    gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", // Increased min size for better visibility
-    gap: "20px",
-    padding: "50px",
-    maxWidth: "1200px",
-    margin: "0 auto",
-  },
-  card: {
-    position: "relative",
-    cursor: "pointer",
-    overflow: "hidden",
-    borderRadius: "10px",
-    boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.4)",
-    transition: "transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out",
-  },
-  cardHover: {
-    transform: "scale(1.05)", // Slightly enlarge on hover
-    boxShadow: "0px 6px 20px rgba(0, 0, 0, 0.5)",
-  },
-  cardImage: {
-    width: "100%",
-    height: "280px", // Increased height for better display
-    objectFit: "cover",
-  },
-  overlay: {
-    position: "absolute",
-    top: "0",
-    left: "0",
-    width: "100%",
-    height: "100%",
-    backgroundColor: "rgba(5, 10, 35, 0.85)", // Increased visibility of background
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    justifyContent: "center",
-    textAlign: "center",
-    padding: "20px",
-    color: "#fff",
-    transition: "0.3s ease-in-out",
-    opacity: "0.9",
-  },
-  title: {
-    fontSize: "1.8rem",
-    fontWeight: "bold",
-    color: "#ff4444",
-  },
-  text: {
-    fontSize: "1rem",
-    marginTop: "10px",
-  },
-};
-
 function Services() {
   return (
     <div>
-      <header style={styles.page}>
-        <h1 style={styles.header}>Our Services</h1>
-        <p style={styles.description}>
+      <header className="services-page">
+        <h1 className="services-header">Our Services</h1>
+        <p className="services-description">
           We provide expert IT solutions, repairs, and maintenance services to
           keep your systems running at peak performance.
         </p>
       </header>
 
-      <div style={styles.cardContainer}>
+      <div className="services-card-container">
         {services.map((service) => (
-          <Card
-            key={service.id}
-            style={styles.card}
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.transform = styles.cardHover.transform)
-            }
-            onMouseLeave={(e) => (e.currentTarget.style.transform = "scale(1)")}
-          >
-            <Card.Img src={service.img} style={styles.cardImage} />
-            <Card.ImgOverlay style={styles.overlay}>
-              <Card.Title style={styles.title}>{service.title}</Card.Title>
-              <Card.Text style={styles.text}>{service.description}</Card.Text>
+          <Card key={service.id} className="services-card">
+            <Card.Img src={service.img} className="services-card-image" />
+            <Card.ImgOverlay className="services-overlay">
+              <Card.Title className="services-title">
+                {service.title}
+              </Card.Title>
+              <Card.Text className="services-text">
+                {service.description}
+              </Card.Text>
             </Card.ImgOverlay>
           </Card>
         ))}
