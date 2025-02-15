@@ -1,66 +1,3 @@
-/* Home Container
-.home-container {
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    height: 100vh;
-    color: white;
-  }
-   */
-  /* Left Section - Text Content */
-  /* .home-text {
-    flex: 1;
-    text-align: left;
-    padding: 20px;
-  } */
-  
-  /* Title */
-  /* .home-title {
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-  }
-   */
-  /* Description */
-  /* .home-description {
-    font-size: 1.2rem;
-    line-height: 1.5;
-    margin-bottom: 30px;
-  }
-   */
-  /* Button */
-  /* .home-button {
-    background-color: white;
-    color: black;
-    padding: 12px 24px;
-    font-size: 1.2rem;
-    border: none;
-    cursor: pointer;
-    transition: 0.3s;
-    border-radius: 5px;
-  } */
-  
-  /* .home-button:hover {
-    background-color: #f0f0f0;
-  }
-   */
-  /* Right Section - Image */
-  /* .home-image {
-    flex: 1;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-  }
-   */
-  /* Image */
-  /* .home-img {
-    max-width: 500px;
-    height: auto;
-    border-radius: 10px;
-  }
-   */
 
 
 
@@ -137,7 +74,7 @@
 .products-container {
     width: 100%;
     height: 100%;
-    max-width: 1200px; /* Adjust this value as needed */
+    max-width: 91%; /* Adjust this value as needed */
     margin: 50px auto; /* Adds space around the section */
     padding: 20px;
     text-align: center;
@@ -168,8 +105,6 @@
     /* background-color: #1a1a1a; */
     border-radius: 10px;
     padding-bottom: 7rem;
-    
-
     text-align: center;
     width: 200px;
     transition: transform 0.3s ease-in-out;
@@ -231,8 +166,8 @@
     
 }
 .paragraph-last{
-    margin-top: 30px;
-    margin-bottom: 40px;
+  width: 90%;
+  margin: 30px auto 40px;
     font-family: "PingFang SC", sans-serif;
     color: #000000;
     font-size: 20px;
@@ -268,11 +203,11 @@
   }
   
   .coffee-image {
-    width: 500px;
+    width: 400px;
     aspect-ratio: auto 500 / 526;
     height: 526px;
     margin-right:5% ;
-    margin-left: 5%;
+    margin-left: 6%;
   }
   
   .large-electronics-img {
@@ -286,13 +221,14 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
-    padding: 1rem;
+    column-gap: 20px;
+    padding: 0.1rem;
     padding-right: 2rem;
   }
   
   .product-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
     padding: 1rem;
   }
