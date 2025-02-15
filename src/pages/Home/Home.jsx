@@ -13,6 +13,7 @@ import printer from "../../assets/vectors/printer.jpg";
 import router from "../../assets/vectors/router.jpg";
 import ups from "../../assets/vectors/ups.jpeg";
 import hardisk from "../../assets/vectors/hardisk.png";
+import mobile from "../../assets/vectors/mobile-phone-repair.jpg";
 import laptop4 from "../../assets/vectors/laptop4.jpg";
 import print from "../../assets/vectors/print.jpg";
 import {
@@ -81,7 +82,7 @@ function Home() {
               {/* <p>Advanced biometric access control systems.</p> */}
             </div>
             <div className="product-card">
-              <img src={mobilerepair} alt="Mobile Repair" />
+              <img src={mobile} alt="Mobile Repair" />
               <h3>Mobile Repair</h3>
               {/* <p>Expert solutions for all smartphone issues.</p> */}
             </div>
