@@ -160,7 +160,7 @@
 }
 .explore-heading{
     margin-bottom: 30px;
-    margin-top: 30px;
+    margin-top: -30px;
     color: #000000;
     font-family: "Poppins", Sans-serif;
     font-size: 2.5rem;
@@ -168,7 +168,7 @@
     
 }
 .paragraph-last{
-  width: 90%;
+  width: 70%;
   margin: 30px auto 40px;
     font-family: "PingFang SC", sans-serif;
     color: #000000;
@@ -216,16 +216,20 @@
     width: 100%;
     height: 500px;
     border-radius: 10px;
+    transform: translateX(-35px);
+    
+  
   }
   
   .coffee-products {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
     column-gap: 20px;
     padding: 0.1rem;
-    padding-right: 2rem;
+    padding-right: 7rem;
+    margin-top: -30px;
   }
   
   .product-row {
